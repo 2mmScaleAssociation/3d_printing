@@ -1,0 +1,128 @@
+;PYCAM-META-DATA: Filename: H:\Documents\FrontBoiler.dxf
+;PYCAM-META-DATA: Timestamp: 2015-04-15 03:19:29.164000
+;PYCAM-META-DATA: Version: 0.5.1.1
+;Estimated machine time: 2 minutes
+G40 (disable tool radius compensation)
+G49 (disable tool length compensation)
+G80 (cancel modal motion)
+G54 (select coordinate system 1)
+G90 (disable incremental moves)
+G21 (metric)
+G61 (exact path mode)
+F200.00000
+S1000.00000
+;PYCAM_TOOLPATH_SETTINGS: START
+;[Bounds]
+;maxz = 0.0
+;maxx = 4.42623809863
+;maxy = 18.9981598785
+;minx = -4.41462743425
+;miny = 10.3881241412
+;minz = 0.0
+;
+;[Tool]
+;torus_radius = 0.25
+;speed = 1000.0
+;shape = CylindricalCutter
+;tool_radius = 1.5
+;feedrate = 200.0
+;
+;[Process]
+;generator = EngraveCutter
+;pocketing_type = none
+;engrave_offset = 0.0
+;milling_style = conventional
+;path_direction = x
+;step_down = 3.0
+;postprocessor = SimpleCutter
+;material_allowance = 0.0
+;
+;PYCAM_TOOLPATH_SETTINGS: END
+T1 M6
+G0 Z25.0000
+M3 (start spindle)
+G04 P3 (wait for 3 seconds)
+ X-3.9767 Y11.6700
+G1 Z0.0000
+ X-4.4146 Y12.3997
+G0 Z25.0000
+ Y16.7838
+G1 Z0.0000
+ X-4.3400 Y16.9587
+ X-3.8201 Y17.7313
+ X-3.1646 Y18.3926
+ X-2.3965 Y18.9192
+ X-2.2159 Y18.9982
+G0 Z25.0000
+ X2.2220
+G1 Z0.0000
+ X2.8951 Y18.6021
+ X3.5948 Y17.9876
+ X4.1667 Y17.2528
+ X4.4262 Y16.7450
+G0 Z25.0000
+ Y12.4552
+G1 Z0.0000
+ X4.1695 Y11.9517
+G0 Z25.0000
+M5 (stop spindle)
+G04 P3 (wait for 3 seconds)
+F200.00000
+S1000.00000
+;PYCAM_TOOLPATH_SETTINGS: START
+;[Bounds]
+;maxz = 0.0
+;maxx = 4.42623809863
+;maxy = 18.9981598785
+;minx = -4.41462743425
+;miny = 10.3881241412
+;minz = 0.0
+;
+;[Tool]
+;torus_radius = 0.25
+;speed = 1000.0
+;shape = CylindricalCutter
+;tool_radius = 1.5
+;feedrate = 200.0
+;
+;[Process]
+;generator = EngraveCutter
+;pocketing_type = none
+;engrave_offset = 0.0
+;milling_style = conventional
+;path_direction = x
+;step_down = 3.0
+;postprocessor = SimpleCutter
+;material_allowance = 0.0
+;
+;PYCAM_TOOLPATH_SETTINGS: END
+G0 Z25.0000
+M3 (start spindle)
+G04 P3 (wait for 3 seconds)
+ X-3.9767 Y11.6700
+G1 Z0.0000
+ X-4.4146 Y12.3997
+G0 Z25.0000
+ Y16.7838
+G1 Z0.0000
+ X-4.3400 Y16.9587
+ X-3.8201 Y17.7313
+ X-3.1646 Y18.3926
+ X-2.3965 Y18.9192
+ X-2.2159 Y18.9982
+G0 Z25.0000
+ X2.2220
+G1 Z0.0000
+ X2.8951 Y18.6021
+ X3.5948 Y17.9876
+ X4.1667 Y17.2528
+ X4.4262 Y16.7450
+G0 Z25.0000
+ Y12.4552
+G1 Z0.0000
+ X4.1695 Y11.9517
+G0 Z25.0000
+M5 (stop spindle)
+G04 P3 (wait for 3 seconds)
+G0 Z25.0000
+M2 (end program)
